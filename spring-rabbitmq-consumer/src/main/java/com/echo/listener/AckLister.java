@@ -27,6 +27,7 @@ public class AckLister implements ChannelAwareMessageListener {
             System.out.println("处理业务逻辑...");
             int i = 3 / 0;//出现错误
             //3. 手动签收
+            System.out.println("接受消息成功啦");
             channel.basicAck(deliveryTag, true);
         } catch (Exception e) {
             //e.printStackTrace();
