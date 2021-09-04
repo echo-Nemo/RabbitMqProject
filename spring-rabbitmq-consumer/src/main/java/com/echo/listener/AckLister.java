@@ -41,6 +41,7 @@ public class AckLister implements ChannelAwareMessageListener {
             //channel.basicReject(deliveryTag,true);
             System.out.println("我是master 分支");
 
+            System.out.println("我是devtest分支");
         }
     }
 }
