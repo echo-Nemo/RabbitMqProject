@@ -39,6 +39,7 @@ public class AckLister implements ChannelAwareMessageListener {
              */
             channel.basicNack(deliveryTag, true, true);
             //channel.basicReject(deliveryTag,true);
+            System.out.println("我是devtest分支");
         }
     }
 }
