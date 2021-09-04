@@ -30,6 +30,7 @@ public class AckLister implements ChannelAwareMessageListener {
             channel.basicAck(deliveryTag, true);
         } catch (Exception e) {
             //e.printStackTrace();
+            System.out.println("接受消息失败啦");
             System.out.println(e.getMessage().toString());
             //4.拒绝签收
             /*
