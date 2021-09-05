@@ -42,6 +42,7 @@ public class AckLister implements ChannelAwareMessageListener {
             System.out.println("我是master 分支");
 
             System.out.println("我是devtest分支");
+            System.out.println("我来测试pull到github啦");
         }
     }
 }
